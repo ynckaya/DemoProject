@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  header a {
+    padding: 8px 12px;
+  }
+  
+  header a:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+  }
+  
+  .banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .banner-text .text1 {
+    color: #fff;
+    background-color: #000;
+    padding: 4px 8px;
+  }
+  .banner-text .text2 {
+    color: #fff;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #ccc !important;
+    margin-bottom: 20px;
+  }
+  
+  .margin-top {
+    margin-top: 30px;
+  }
+  
+  .project-images {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .project-item {
+    position: relative;
+  }
+  
+  .project-item img {
+    width: 100%;
+  }
+  .project-item .project-item-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
+  
+  #about p {
+    text-align: justify;
+  }
+  
+  .teams {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .team-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  
+  .team-item img {
+    width: 100%;
+  }
+  
+  .team-item .task {
+    opacity: 0.6;
+  }
+  
+  .team-item .btn {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+  }
+  
+  .team-item .btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+    cursor: pointer;
+  }
+  
+  .map img {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1.3rem;
+    font-size: 0.8rem;
+  }
+  footer a {
+    color: #fff;
+  }
+  
